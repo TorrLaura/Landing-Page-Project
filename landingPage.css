@@ -39,6 +39,7 @@ ul{
 .light{
     background-color: black;
     color: white;
+    font-style: italic;
 }
 
 .dark{
@@ -96,13 +97,52 @@ header a:hover{
     font-weight: bold;
 }
 
-showcase h1{
+#showcase h1{
     margin-top: 100px;
-    font-size: 80px;
+    font-size: 55px;
     margin-bottom: 55px;
 }
 
 #showcase p{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 25px;
+}
+
+#newsletter{
+    background-color: rgb(176, 233, 233);
+    padding: 15px;
+    color: black;
+}
+
+#newsletter .container{
+    display: flex ;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#newsletter input{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boxes .container .box{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box i{
+    font-size: 150px;
+    margin: auto;
+    color: rgb(54, 192, 192);
+
 }
