@@ -45,3 +45,64 @@ ul{
     background-color:rgb(176, 233, 233);
     color:black;
 }
+
+header{
+    background-color: rgb(176, 233, 233);
+    colorb: black;
+    min-height: 70px;
+    border-bottom: 3px solid rgb(61, 202, 202);
+    padding: 5px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a{
+    color: rgb(6, 60, 85);
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header .highlight, #current a{
+color: rgb(54, 192, 192);
+font-weight: bold;
+}
+header a:hover{
+    color: rgb(54, 192, 192);
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background-image: url(lily-banse-eoGS8SXcfCA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align:center ;
+    color:black;
+    font-weight: bold;
+}
+
+showcase h1{
+    margin-top: 100px;
+    font-size: 80px;
+    margin-bottom: 55px;
+}
+
+#showcase p{
+    font-size: 40px;
+    font-weight: bold;
+}
